@@ -25,6 +25,7 @@ actor TinyPromise[A: Any #send, B: Any #send]
       state = TinyPromiseRejected
     end
 
+
 interface TinyPromiseReceiver[A: Any #send, B: Any #send]
   fun resolve(res: A)
   fun reject(err: B)

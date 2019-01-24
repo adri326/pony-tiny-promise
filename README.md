@@ -1,8 +1,8 @@
 # pony-tiny-promise
 
-A small promise library for pony, as it is currently missing them.
+A small promise library for pony.
 I was looking for promises as easy as the ones you can find in other languages, like JavaScript.
-This library is an attempt to create a promise system similar to it.
+This library is an attempt to create a promise system similar to these, and an opportunity for me to learn more of Pony.
 
 Pony does not allow you to return anything from a behaviours, so my implementation works in a different way than the Javascript one: you define the `TinyPromise` object ahead, with the `resolve` and `reject` methods (or using a handy `TinyPromiseReceiver`), and then pass it as argument to the behaviour.
 
